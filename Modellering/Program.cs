@@ -49,7 +49,7 @@ namespace Modellering
             string playername = Console.ReadLine();
             player1.name = playername;
 
-            Enemy enemy1 = new Enemy()
+            Enemy enemy1 = new Enemy();
 
             enemy1.hp = 30;
             enemy1.name = "nisse";
